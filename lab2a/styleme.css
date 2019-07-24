@@ -1,0 +1,78 @@
+body {
+    background-color: rgba(300, 200, 200, 0.972);
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+}
+p {
+    background-color: azure;
+    padding: 10px;
+}
+#name {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(63, 73, 87);
+    border: 5px solid rgb(177, 171, 136);
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgb(150, 147, 144);
+    text-align: center;
+}
+#description {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-weight: 300;
+    font-style: unset;
+}
+#sad {
+    opacity: 0.8;
+}
+.list {
+    list-style-type: none;
+}
+.movies {
+    text-decoration: none;
+}
+.movies:link {
+    color: black;
+}
+.movies:visited {
+    color: blueviolet;
+    background-color: azure;
+}
+.movies:hover {
+    color: brown;
+    text-decoration: underline;
+}
+p::first-letter { 
+    font-size: 125%;
+    color: rgb(226, 43, 165);
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.datalist{
+    margin-left: 5%;
+}
+.datadef{
+    width: 50%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
