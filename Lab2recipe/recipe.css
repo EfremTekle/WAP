@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 4, 2018, 10:55:28 AM
+    Author     : Merih
+*/
+body{
+    background-image: url("../images/silverware.jpg");
+   
+}
+header{
+    width: 60%;
+    height: 30px;
+    padding: 0px;
+    background-color: #f0f3db;
+    color: #43730b;
+    font-family: serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+}
+#img{
+    margin: 10px;
+    width:30%;
+    height: 20%;
+}
+ul.img{
+    list-style-image: url("../images/pie_ico.gif");
+    list-style-type: none;
+    margin-left: 10px;
+    width: 30%;
+    padding:0px;
+}
+p span{
+    
+    text-decoration: line-through;
+    
+}
+
+
+h3{
+    width: 30%;
+    background-color:#f0f3db;
+    color: #43730b;;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-family: "Times New Romans";
+}
+.comment{
+    
+    background-color:  yellow;
+    opacity: 0.8;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+ul.list{
+    list-style-image: url("../images/pie_icon.gif");
+    list-style-type: none;
+}
+a.link{
+    display: block;
+    color: #43730b;
+}
+.validate{
+    
+    width: 30%;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}  
+footer{
+    margin-left: 5px;
+    position: absolute;
+    width: 30%;
+    
+}
+.foot1{
+    border-right: 1px solid darkgray;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    
+    
+}
+
